@@ -1,8 +1,5 @@
-import random
-
-
 def jogo_adivinhacao():
-    numero_secreto = random.randint(1, 100)
+    numero_secreto = 50
     tentativas = 5
 
     print("Bem-vindo ao jogo de adivinhação!")
